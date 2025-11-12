@@ -6,7 +6,7 @@ La estructura del repositorio está organizada de la siguiente manera: una carpe
 
 El objetivo educativo de este proyecto es ayudar a los usuarios a comprender qué es una VPN, cómo protege la privacidad en línea, cuáles son los usos correctos y éticos, qué riesgos puede implicar un mal uso, y cómo elegir un servicio confiable. Todo el contenido busca promover una cultura digital más segura y responsable.
 
-La página presenta tres tipos de contenido interactivo. En primer lugar, un video introductorio que explica los conceptos básicos de las VPN. En segundo lugar, tres audios breves que refuerzan distintos aspectos: 1) Qué es una VPN, 2) Usos éticos y legales, y 3) Riesgos y malas prácticas. Finalmente, un mini test de tres preguntas con retroalimentación inmediata, desarrollado en JavaScript, que permite al usuario evaluar lo aprendido.
+La página presenta tres tipos de contenido interactivo. En primer lugar, un video introductorio que explica los conceptos básicos de las VPN. En segundo lugar, tres audios breves que refuerzan distintos aspectos: 1. Qué es una VPN, 2. Usos éticos y legales, y 3. Riesgos y malas prácticas. Finalmente, un mini test de tres preguntas con retroalimentación inmediata, desarrollado en JavaScript, que permite al usuario evaluar lo aprendido.
 
 Para utilizar el proyecto, simplemente clona o descarga este repositorio con el comando:
 
