@@ -1,1 +1,15 @@
-Aquí queda el README sobre el repositorio, no es nevcesario algo super llamativo
+# 🌐 Uso Sano y Responsable de las VPN
+
+Este proyecto tiene como objetivo educar sobre el uso seguro, ético y responsable de las VPN (Redes Privadas Virtuales). La página incluye material multimedia (un video y tres audios) junto con un pequeño quiz interactivo que permite reforzar los conocimientos adquiridos sobre el tema.
+
+La estructura del repositorio está organizada de la siguiente manera: una carpeta `aud/` con los tres audios informativos, una carpeta `vid/` con el video educativo, una carpeta `img/` opcional para imágenes complementarias, y los archivos principales del proyecto (`index.html`, `style.css`, `script.js` y `README.md`).
+
+El objetivo educativo de este proyecto es ayudar a los usuarios a comprender qué es una VPN, cómo protege la privacidad en línea, cuáles son los usos correctos y éticos, qué riesgos puede implicar un mal uso, y cómo elegir un servicio confiable. Todo el contenido busca promover una cultura digital más segura y responsable.
+
+La página presenta tres tipos de contenido interactivo. En primer lugar, un video introductorio que explica los conceptos básicos de las VPN. En segundo lugar, tres audios breves que refuerzan distintos aspectos: 1) Qué es una VPN, 2) Usos éticos y legales, y 3) Riesgos y malas prácticas. Finalmente, un mini test de tres preguntas con retroalimentación inmediata, desarrollado en JavaScript, que permite al usuario evaluar lo aprendido.
+
+Para utilizar el proyecto, simplemente clona o descarga este repositorio con el comando:
+
+git clone https://github.com/JovenDan/CSS.git
+
+Luego abre el archivo `index.html` en tu navegador y asegúrate de que los archivos multimedia se encuentren dentro de sus carpetas correspondientes (`aud/` y `vid/`). Una vez cargado, podrás visualizar el video, escuchar los audios y completar el quiz al final.

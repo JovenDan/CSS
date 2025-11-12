@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso Responsable de las VPN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/vpn.jpeg" alt="VPN">
+        <h1>Uso Sano y Responsable de las VPN</h1>
+        <p>Aprende cómo proteger tu privacidad en línea sin poner en riesgo tu seguridad o la de otros.</p>
+    </header>
+
+    <main>
+        <section id="video-section">
+            <h2>Video educativo</h2>
+            <video controls width="640">
+                <source src="vid/video.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </section>
+
+        <section id="audio-section">
+            <h2>Audios informativos</h2>
+            <div class="audio-player">
+                <p>1. Qué es una VPN</p>
+                <audio controls>
+                    <source src="aud/VPN_1.wav" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="audio-player">
+                <p>2. Usos éticos y legales</p>
+                <audio controls>
+                    <source src="aud/VPN_2.wav" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="audio-player">
+                <p>3. Riesgos y malas prácticas</p>
+                <audio controls>
+                    <source src="aud/VPN_3.wav" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>
+
+        <section id="quiz-section">
+            <h2>Mini Quiz: ¿Qué tanto aprendiste?</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. ¿Cuál es el propósito principal de una VPN?</p>
+                    <label><input type="radio" name="q1" value="a"> Jugar videojuegos más rápido</label><br>
+                    <label><input type="radio" name="q1" value="b"> Ocultar la dirección IP y proteger la conexión</label><br>
+                    <label><input type="radio" name="q1" value="c"> Hackear redes públicas</label><br>
+                    <label><input type="radio" name="q1" value="d"> Evitar pagar por servicios</label>
+                </div>
+
+                <div class="question">
+                    <p>2. ¿Qué práctica es insegura al usar una VPN?</p>
+                    <label><input type="radio" name="q2" value="a"> Usar contraseñas seguras</label><br>
+                    <label><input type="radio" name="q2" value="b"> Conectarse a servidores desconocidos sin investigar</label><br>
+                    <label><input type="radio" name="q2" value="c"> Revisar políticas de privacidad</label><br>
+                    <label><input type="radio" name="q2" value="d"> Usar VPNs de pago confiables</label>
+                </div>
+
+                <div class="question">
+                    <p>3. ¿Cuál es un uso responsable de una VPN?</p>
+                    <label><input type="radio" name="q3" value="a"> Eludir bloqueos geográficos para contenidos legales</label><br>
+                    <label><input type="radio" name="q3" value="b"> Compartir tu cuenta de VPN públicamente</label><br>
+                    <label><input type="radio" name="q3" value="c"> Descargar software pirata</label><br>
+                    <label><input type="radio" name="q3" value="d"> Hackear redes seguras</label>
+                </div>
+
+                <button type="button" id="submit-quiz">Enviar respuestas</button>
+            </form>
+
+            <div id="quiz-result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Proyecto Educativo sobre Ciberseguridad</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
